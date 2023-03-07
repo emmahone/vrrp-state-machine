@@ -1,4 +1,4 @@
-# keepalived-state-machine
+# vrrp-state-machine
 
 ```mermaid
 graph TD
