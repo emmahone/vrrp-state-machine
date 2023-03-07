@@ -7,7 +7,7 @@ graph TD
     B -->|Backup| D(Backup)
     C -->|Priority Lowered| D
     C -->|Down| E(Init)
-    D -->|Master Alive| F
+    D -->|Master Alive| F{Backup alive/down?}
     D -->|Master Down| G{Priority Boost}
     G -->|Higher Priority| D
     G -->|Same Priority| C
