@@ -17,8 +17,6 @@ graph TD
 
 This flowchart shows the various states that a Virtual Router Redundancy Protocol (VRRP) can go through during its lifecycle.
 
-- Init: This is the initial state when the VRRP is first started.
-
 - Master Election: In this state, the VRRP router starts the process of selecting a master router.
 
 - Master: If the VRRP router wins the election, it enters the Master state.
