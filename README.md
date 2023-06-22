@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-    A[Init] --> B{Master Election}
+    B{Master Election}
     B -->|Master| C(Master)
     B -->|Backup| D(Backup)
     C -->|Priority Lowered| D
