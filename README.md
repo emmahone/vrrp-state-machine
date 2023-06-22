@@ -39,3 +39,5 @@ This flowchart shows the various states that a Virtual Router Redundancy Protoco
 - Backup Alive: If the VRRP router in the Backup state is still alive, it remains in that state.
 
 - Backup Down: If the VRRP router in the Backup state fails, it transitions to the Master Election state to try to become the new Master.
+
+`vrrp.h` found in this project is copied from the keepalived [project](https://github.com/acassen/keepalived/tree/master) under [GNU General Public License v2.0](). See the file COPYING for copying conditions.
