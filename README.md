@@ -14,7 +14,8 @@ graph TD
     F -->|Backup Down| G
 ```
 
-This flowchart shows the various states that a Virtual Router Redundancy Protocol (VRRP) can go through during its lifecycle.
+This flowchart shows the various states that the keepalived implementation of Virtual Router Redundancy Protocol (VRRP) can go through during its lifecycle. VRRP operates at Layer 3 (the Network Layer) of the OSI model. VRRP is designed to provide router redundancy, allowing for a backup router to take over if the primary one fails, ensuring the availability of the gateway. Since this process involves IP addressing and routing, it is considered as operating at the Network Layer.
+
 
 - `Master Election`: In this state, the VRRP router starts the process of selecting a master router.
 
